@@ -7,6 +7,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
   <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <link rel="stylesheet" href="styles.css" />
   <script src="script.js"></script>  
 </head>
   <body  onload="main()">
@@ -15,13 +16,36 @@
 
     <h1 class=" col-12 text-center">Covid19</h1>
 
-    <div class="def">
+    <div id="def">
       <p>La maladie à coronavirus 2019 (COVID-19) est une maladie infectieuse provoquée par un nouveau virus qui n'avait encore jamais été identifié chez l'être humain. </p>
       <p>  Ce virus provoque une maladie respiratoire (analogue à la grippe) avec des symptômes comme la toux, la fièvre et, dans les cas les plus sévères, une pneumonie. On peut s'en protéger en se lavant fréquemment les mains, et en évitant de se toucher le visage. </p> 
       <em> COMMENT LA MALADIE SE PROPAGE</em> 
       <p>  Le nouveau coronavirus 2019 se propage essentiellement par contact avec une personne infectée, lorsqu'elle tousse ou éternue, ou par l'intermédiaire des gouttelettes de salive ou de sécrétions nasales.</p>
-      </div>
+    </div>
 
+    <div id = "sectionCountry" >
+
+    <table>
+      <thead>
+        <tr>
+          <th>Pays</th>
+          <th>infectée</th>
+          <th>morts</th>
+          <th>Nbre total de cas</th>
+          <th>nouveaux cas</th>
+          <th>décès totaux </th>
+          <th> nouveaux décès</th>
+          <th>total récupéré</th>
+          <th>cas actifs</th>
+          <th>cas critiques graves</th>
+        </tr>
+      </thead>
+      <tbody id = "tableCountry" >
+          
+        
+      </tbody>
+    </table>
+    </div>
 
     </section>
 
